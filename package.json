@@ -1,0 +1,12 @@
+{
+  "id": "fitbit",
+  "name": "Fitbit",
+  "version": "1.0.0",
+  "description": "Spendee",
+  "main": "index.js",
+  "author": "Gabriele Canepa",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.fitbit.com/"
+  }
+}
