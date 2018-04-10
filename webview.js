@@ -1,13 +1,12 @@
+"use strict";
+
 module.exports = Franz => {
-  let momentJS = document.createElement('script');
-  momentJS.src = 'https://www.fitbit.com/scripts/libs/moment/moment.js';
-  document.head.appendChild(momentJS);
+  // Load galileo
+  let galieloApp = document.createElement('script');
+  galieloApp.src = 'https://assets.fitbit.com/production/app.lab.galileo.base.6.js.e3aec34a47a604a3bc03b95f9fafa38b.js';
+  document.head.appendChild(galieloApp);
 
-  let safeUnescape = document.createElement('script');
-  safeUnescape.src = 'https://www.fitbit.com/scripts/galileo/util/safeUnescape.js';
-  document.head.appendChild(safeUnescape);
-
-  let googleAnalytics = document.createElement('script');
-  googleAnalytics.src = 'https://www.fitbit.com/scripts/galileo/tracking/google_analytics.js';
-  document.head.appendChild(googleAnalytics);
+  document.querySelector(".store").remove();
+  document.querySelector("footer").remove();
+  document.getElementById("container").style.minHeight = "calc(100vh - 80px)";
 };
