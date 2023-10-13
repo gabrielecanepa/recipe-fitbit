@@ -1,5 +1,7 @@
 # Fitbit Franz Plugin
 
-Follow instructions [here](https://github.com/meetfranz/plugins/blob/master/docs/integration.md) for the installation of this plugin.
+A plugin to use [Fitbit](https://fitbit.com) inside the [Franz](https://meetfranz.com) desktop application.
 
-[![MIT Licensed](https://img.shields.io/cocoapods/l/AFNetworking.svg?style=for-the-badge)](https://gabrielecanepa.github.io/mit-license/)
+## Usage
+
+Follow [these instructions](https://github.com/meetfranz/plugins/blob/master/docs/integration.md) to install the plugin.
